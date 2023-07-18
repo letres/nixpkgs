@@ -173,4 +173,5 @@ callPackage (import ./generic.nix (rec {
   };
 
 })) ({
-  ocamlPackage
+  ocamlPackages = ocaml-ng.ocamlPackages_4_14;
+} // args)
