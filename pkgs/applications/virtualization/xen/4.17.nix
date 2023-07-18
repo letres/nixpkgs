@@ -46,7 +46,7 @@ callPackage (import ./generic.nix (rec {
 
   src = fetchurl {
     url = "https://downloads.xenproject.org/release/xen/${version}/xen-${version}.tar.gz";
-    sha256 = "1rmc7gb72xwhr3h9rc3bkac41s8kjjzz45miwdq6yalyq7j7vss5";
+    sha256 = "sha256-CR2/skHs2MYsN2Rq0Jr4p5ob/qm5nv1Ij2OCXLe/njk=";
   };
 
   # Sources needed to build tools and firmwares.
