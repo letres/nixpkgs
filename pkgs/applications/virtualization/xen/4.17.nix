@@ -42,7 +42,7 @@ let
 in
 
 callPackage (import ./generic.nix (rec {
-  version = "4.17.0";
+  version = "4.17.1";
 
   src = fetchurl {
     url = "https://downloads.xenproject.org/release/xen/${version}/xen-${version}.tar.gz";
